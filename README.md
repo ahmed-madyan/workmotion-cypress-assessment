@@ -62,9 +62,11 @@ _Below is an example of how you can instruct your audience on installing and set
    git clone
    ```
 3. Install Cypress via npm
+   Change the current working directory to the project path
    ```sh
    cd /your/project/path
    ```
+   Install
    ```sh
    npm install cypress --save-dev
    ```
