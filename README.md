@@ -70,14 +70,14 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Install Cypress via NPM 
    ```sh
-   	cd /your/project/path
+   cd /your/project/path
    ```
    ```sh
-   	npm install cypress --save-dev
+   npm install cypress --save-dev
    ```
 5. Open Cypress test runner
    ```sh
-   	cd /your/project/path
+   cd /your/project/path
    ```
 
 
