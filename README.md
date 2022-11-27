@@ -74,8 +74,13 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install cypress --save-dev
    ```
 5. Open Cypress test runner
+   The long way with the full path
    ```sh
-   cd /your/project/path
+   ./node_modules/.bin/cypress open
+   ```
+   Or with the shortcut using npm bin
+   ```sh
+   $(npm bin)/cypress open
    ```
 
 
