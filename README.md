@@ -77,7 +77,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone
    ```
-3. Install Cypress via npm
+3. Install Cypress via npm if needed
    
    Change the current working directory to the project path
    ```sh
