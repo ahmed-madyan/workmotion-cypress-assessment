@@ -59,22 +59,26 @@ Download the [Node.JS](https://nodejs.org/en/download/) source code or a pre-bui
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Navigate to the Repo URL at [https://github.com/ahmed-madyan/workmotion-cypress-assessment](https://github.com/ahmed-madyan/workmotion-cypress-assessment)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Install Cypress via NPM 
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   	cd /your/project/path
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+   ```js
+   	npm install cypress --save-dev
+   ```
+5. Open Cypress test runner
+   ```js
+   	cd /your/project/path
+   ```
 
 
 <!-- CONTRIBUTING -->
