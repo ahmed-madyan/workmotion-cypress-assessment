@@ -64,11 +64,11 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone
    ```
-3. Install NPM packages
+3. Install npm packages
    ```sh
    npm install
    ```
-4. Install Cypress via NPM 
+4. Install Cypress via npm 
    ```sh
    cd /your/project/path
    ```
