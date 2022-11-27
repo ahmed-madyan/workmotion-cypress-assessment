@@ -27,12 +27,28 @@
 <!-- ABOUT THE Repo -->
 ## About The Repo
 
+This Repo creating for QA assessment with the following:
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Login for applying some E2E testcases using javascript preferred to be done using cypress framework.
 
+Pre-condition: 
+
+As you already logged in as HR manager, so you’ll be able to add new employee.
+
+Test Steps:
+1. Add new Talent > Create new
+2. Select WorkGlobal 
+3. Fill all the onboarding steps
+4. Open talents page
+5. Make sure the talent has been added as onboarding status
+
+Test date:
+
+1. URL: https://beta.workmotion.com/login
+2. Username: aliaa+qahrmanager@workmotion.com
+3. Password: Test1234
 
 Use the `README.md` to get started.
-
 
 ### Built With
 
