@@ -69,14 +69,14 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 4. Install Cypress via NPM 
-   ```js
+   ```sh
    	cd /your/project/path
    ```
-   ```js
+   ```sh
    	npm install cypress --save-dev
    ```
 5. Open Cypress test runner
-   ```js
+   ```sh
    	cd /your/project/path
    ```
 
