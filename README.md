@@ -48,11 +48,10 @@ First, make sure you have all the [system requirements](https://docs.cypress.io/
 ### Prerequisites
 
 Download the [Node.JS](https://nodejs.org/en/download/) source code or a pre-built installer for your platform, and start developing today.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+* Install npm packages
+   ```sh
+   npm install
+   
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
@@ -62,19 +61,14 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone
    ```
-3. Install npm packages
-   ```sh
-   npm install
-   ```
-4. Install Cypress via npm 
+3. Install Cypress via npm
    ```sh
    cd /your/project/path
    ```
    ```sh
    npm install cypress --save-dev
    ```
-5. Open Cypress test runner:
-   
+4. Open Cypress test runner:
    The long way with the full path
    ```sh
    ./node_modules/.bin/cypress open
@@ -83,7 +77,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    $(npm bin)/cypress open
    ```
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
