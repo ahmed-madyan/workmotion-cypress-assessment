@@ -95,8 +95,8 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 * Ahmed Madyan - [ahmed.madyan01@gmail.com](mailto:ahmed.madyan01@gmail.com)
-* LinkedIn : [linkedin.com/in/ahmed-madyan/](linkedin.com/in/ahmed-madyan/)
-* Project : [github.com/ahmed-madyan/workmotion-cypress-assessment](github.com/ahmed-madyan/workmotion-cypress-assessment)
+* LinkedIn : [https://www.linkedin.com/in/ahmed-madyan/](https://www.linkedin.com/in/ahmed-madyan/)
+* GitHub : [https://github.com/ahmed-madyan](https://github.com/ahmed-madyan)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
