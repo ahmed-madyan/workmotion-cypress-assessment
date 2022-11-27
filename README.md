@@ -73,7 +73,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install cypress --save-dev
    ```
-5. Open Cypress test runner
+5. Open Cypress test runner:
    
    The long way with the full path
    ```sh
