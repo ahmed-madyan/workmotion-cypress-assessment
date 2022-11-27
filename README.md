@@ -77,7 +77,12 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone
    ```
-3. Install Cypress via npm if needed
+3. Make sure that you have already run npm init or have a node_modules folder or package.json file in the root of your project 
+to ensure cypress is installed in the correct directory, if not initialize npm node_modules folder using the following command:
+   ```sh
+   npm -i init
+   ```
+4. Install Cypress via npm if needed
    
    Change the current working directory to the project path
    ```sh
