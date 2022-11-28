@@ -1,0 +1,22 @@
+{
+  "name": "workmotion-cypress-assessment",
+  "description": "Workmotion cypress QA assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-madyan/workmotion-cypress-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-madyan/workmotion-cypress-assessment/issues"
+  },
+  "homepage": "https://github.com/ahmed-madyan/workmotion-cypress-assessment#readme"
+}
