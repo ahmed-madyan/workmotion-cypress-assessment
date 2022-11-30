@@ -42,7 +42,7 @@ describe('E2E Scenario', () =>
     OnboardingSalaryCalculator.typeBaseSalaryPerMonth(data.onboardingSalaryCalculator.baseSalaryPerMonth)
     OnboardingSalaryCalculator.continue()
     OnboardingInviteEmployee.validateUserRedirectedToTheOnboardingInviteEmployeePage(data.Validations.onboardingInviteEmployeeHeader_Label)
-    OnboardingInviteEmployee.typeEmail(data.onboardingInviteEmployee.email)
+    OnboardingInviteEmployee.typeUniqueEmail()
     OnboardingInviteEmployee.continue()
     OnboardingSummaryReview.validateUserRedirectedToTheOnboardingSummaryReviewPage(data.Validations.onboardingReviewSummaryHeader_Label)
     OnboardingSummaryReview.approveTheDataProvided()
