@@ -6,7 +6,8 @@ class Dashboard
     {
         userGreetingComponent_Label : () => cy.get('[data-cy="user-greeting-component"]'),
         addTalent_Btn : () => cy.get('[data-testid="add-employee-menu"]'),
-        createNew_Btn : () => cy.get('[data-testid="create-new-item"]')
+        createNew_Btn : () => cy.get('[data-testid="create-new-item"]'),
+        sideBarTalentsTab_Btn : () => cy.get('[data-cy="sidebar-talents-link"]')
     }
 
     validateUserGreetingComponentForHRManager(text){
@@ -17,13 +18,15 @@ class Dashboard
         this.elements.addTalent_Btn().click()
     }
 
+    openTalentsTab(){
+        this.elements.sideBarTalentsTab_Btn().click()
+    }
+
     createNewTalent(){
         this.addTalent()
         this.elements.createNew_Btn().click()
         Cypress.on('uncaught:exception', () => false)
     }
-
-
 }
 
 module.exports = new Dashboard();
