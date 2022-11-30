@@ -25,7 +25,7 @@
   },
   "onboardingInviteEmployee":
   {
-    "email": "test1234558j8f42@test.com"
+    "email": "test1234558j825272@test.com"
   },
   "Validations": 
   {
@@ -39,6 +39,6 @@
     "onboardingInviteEmployeeHeader_Label" : "Now it is time to invite your employee.",
     "onboardingReviewSummaryHeader_Label" : "Summary of employment agreement",
     "successScrrenHeaderTitle_Label" : "Thank you for completing the onboarding experience!",
-    "talentsHeaderTitle_Label" : "ONBOARDING LIST"    
+    "talentsHeaderTitle_Label" : "Onboarding list"    
   }
 }

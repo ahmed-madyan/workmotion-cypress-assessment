@@ -55,6 +55,6 @@ describe('E2E Scenario', () =>
     Dashboard.openTalentsTab()
     Talents.validateUserRedirectedToTalentsPage(data.Validations.talentsHeaderTitle_Label)
     Talents.searchForTalent(data.onboardingContractDetails.firstName + data.onboardingContractDetails.LastName)
-
+    Talents.validateThatTalentHasBeenAddedAsOnboardingStatus(data.onboardingContractDetails.firstName + data.onboardingContractDetails.LastName)
   })
 })

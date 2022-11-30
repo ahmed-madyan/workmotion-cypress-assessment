@@ -20,9 +20,15 @@ class Talents
         this.elements.searchForTalent_Box().type(talentName)
     }
 
-    validateThatTalentHasBeenAddedAsOnboardingStatus()
+    validateThatTalentHasBeenAddedAsOnboardingStatus(talentName)
     {
-        this.elements.finish_Btn().click()
+        this.elements.talentsName_Cell().each(($el, index, $list) => 
+        {
+            if($el.text().includes(talentName))
+            {
+                this.elements.talentsStatus_Cell().eq(index).should('ONBOARDING')
+            }
+        })
     }
 }
 
