@@ -26,7 +26,7 @@ class Talents
         {
             if($el.text().includes(talentName))
             {
-                this.elements.talentsStatus_Cell().eq(index).should('ONBOARDING')
+                this.elements.talentsStatus_Cell().eq(index).should('have.text', 'ONBOARDING')
             }
         })
     }
