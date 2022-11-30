@@ -10,19 +10,23 @@ class Dashboard
         sideBarTalentsTab_Btn : () => cy.get('[data-cy="sidebar-talents-link"]')
     }
 
-    validateUserGreetingComponentForHRManager(text){
+    validateUserGreetingComponentForHRManager(text)
+    {
         this.elements.userGreetingComponent_Label().should('have.text', text)
     }
 
-    addTalent(){
+    addTalent()
+    {
         this.elements.addTalent_Btn().click()
     }
 
-    openTalentsTab(){
+    openTalentsTab()
+    {
         this.elements.sideBarTalentsTab_Btn().click()
     }
 
-    createNewTalent(){
+    createNewTalent()
+    {
         this.addTalent()
         this.elements.createNew_Btn().click()
         Cypress.on('uncaught:exception', () => false)
