@@ -1,0 +1,22 @@
+{
+  "env":{
+    "WorkMotion_URL": "https://beta.workmotion.com/login"
+        },
+  "onboarding":
+  {
+    "country": "Egypt"
+  },
+  "loginData":
+  {
+    "email": "aliaa+qahrmanager@workmotion.com",
+    "password": "Test1234"
+  },
+  "Validations": 
+  {
+    "userGreetingComponentForHRManager": "Hello, HR Manager!",
+    "welcome_label": "Amazing, you are now ready to get started!",
+    "onboardingHeaderTitle_Label": "Where do you want to hire?",
+    "onboardingHeaderBody_Label": "Select any of the available 150+ countries to start the onboarding."
+  }
+  
+}
