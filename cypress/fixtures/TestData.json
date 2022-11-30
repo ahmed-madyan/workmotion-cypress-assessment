@@ -2,21 +2,42 @@
   "env":{
     "WorkMotion_URL": "https://beta.workmotion.com/login"
         },
-  "onboarding":
-  {
-    "country": "Egypt"
-  },
+
   "loginData":
   {
     "email": "aliaa+qahrmanager@workmotion.com",
     "password": "Test1234"
+  },  
+  "onboarding":
+  {
+    "country": "Egypt"
+  },
+  "onboardingContractDetails":
+  {
+    "firstName": "Ahmed",
+    "LastName": "Madyan",
+    "jobTitle": "Test Automation Engineer",
+    "jobDescription": "Test Automation Engineer"
+  },
+  "onboardingSalaryCalculator":
+  {
+    "baseSalaryPerMonth": "1000"
+  },
+  "onboardingInviteEmployee":
+  {
+    "email": "test1234558j8f42@test.com"
   },
   "Validations": 
   {
     "userGreetingComponentForHRManager": "Hello, HR Manager!",
-    "welcome_label": "Amazing, you are now ready to get started!",
+    "welcome_label": " Amazing, you are now ready to   get started!  ",
     "onboardingHeaderTitle_Label": "Where do you want to hire?",
-    "onboardingHeaderBody_Label": "Select any of the available 150+ countries to start the onboarding."
+    "onboardingHeaderBody_Label": "Select any of the available 150+ countries to start the onboarding.",
+    "onboardingContractDetailsHeader_Label" : "Employment agreement details",
+    "onboardingContractClausesHeader_Label" : "Contract Clauses",
+    "onboardingSalaryCalculatorHeader_Label" : "Compensation Calculation",
+    "onboardingInviteEmployeeHeader_Label" : "Now it is time to invite your employee.",
+    "onboardingReviewSummaryHeader_Label" : "Summary of employment agreement",
+    "successScrrenHeaderTitle_Label" : "Thank you for completing the onboarding experience!"
   }
-  
 }

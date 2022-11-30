@@ -4,28 +4,18 @@ class OnboardingContractClauses
 {
     elements =
     {
-        welcome_label : () => cy.get('.sc-cNKqjZ'),
-        onboardingHeaderTitle_Label : () => cy.get('header.sc-jNHqnW.hcqiPT > h1'),
-        onboardingHeaderBody_Label : () => cy.get('header.sc-jNHqnW.hcqiPT > p'),
-        selectCountry_Box : () => cy.get('input#select-country'),
-        country_List : () => cy.get('.css-imuti2'),
-        getStarted_Btn : () => cy.get('[data-cy="country-selection-get-started-btn"]'),
-
-
-        
+        headerTitle_Label : () => cy.get('h1.sc-dkqQuH.NdrSJ'),
+        continue_Btn : () => cy.get('[data-cy="steps-continue-btn"]')
     }
 
-    validateUserRedirectedToTheOnboardingPage(welcomeText, headerTitleText, headerBodyText){
-        this.elements.welcome_label().should('have.text', welcomeText)
-        this.elements.onboardingHeaderTitle_Label().should('have.text', headerTitleText)
-        this.elements.onboardingHeaderBody_Label().should('have.text', headerBodyText)
-    }
-
-    selectCountry(country)
+    validateUserRedirectedToTheOnboardingContractClausesPage(header_Text)
     {
-        this.elements.selectCountry_Box().type(country)
-        this.elements.country_List().contains(country).click()
-        this.elements.getStarted_Btn().click()
+        this.elements.headerTitle_Label().should('have.text', header_Text)
+    }
+
+    continue()
+    {
+        this.elements.continue_Btn().click()
     }
 }
 

@@ -10,12 +10,10 @@ class Onboarding
         selectCountry_Box : () => cy.get('input#select-country'),
         country_List : () => cy.get('.css-imuti2'),
         getStarted_Btn : () => cy.get('[data-cy="country-selection-get-started-btn"]'),
-
-
-        
     }
 
-    validateUserRedirectedToTheOnboardingPage(welcomeText, headerTitleText, headerBodyText){
+    validateUserRedirectedToTheOnboardingPage(welcomeText, headerTitleText, headerBodyText)
+    {
         this.elements.welcome_label().should('have.text', welcomeText)
         this.elements.onboardingHeaderTitle_Label().should('have.text', headerTitleText)
         this.elements.onboardingHeaderBody_Label().should('have.text', headerBodyText)
