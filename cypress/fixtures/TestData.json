@@ -38,6 +38,7 @@
     "onboardingSalaryCalculatorHeader_Label" : "Compensation Calculation",
     "onboardingInviteEmployeeHeader_Label" : "Now it is time to invite your employee.",
     "onboardingReviewSummaryHeader_Label" : "Summary of employment agreement",
-    "successScrrenHeaderTitle_Label" : "Thank you for completing the onboarding experience!"
+    "successScrrenHeaderTitle_Label" : "Thank you for completing the onboarding experience!",
+    "talentsHeaderTitle_Label" : "ONBOARDING LIST"    
   }
 }

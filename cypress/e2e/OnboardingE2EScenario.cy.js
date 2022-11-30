@@ -8,6 +8,7 @@ import OnboardingSalaryCalculator from '../pages/OnboardingSalaryCalculator'
 import OnboardingInviteEmployee from '../pages/OnboardingInviteEmployee'
 import OnboardingSummaryReview from '../pages/OnboardingSummaryReview'
 import OnboardingSuccessPage from '../pages/OnboardingSuccessPage'
+import Talents from '../pages/Talents'
 
 describe('E2E Scenario', () => 
 {
@@ -23,8 +24,11 @@ describe('E2E Scenario', () =>
 
   it('Validate onboarding cycle', () => 
   {
+    // Login As HR Manager
     LoginPage.loginAs(data.loginData.email, data.loginData.password)
     Dashboard.validateUserGreetingComponentForHRManager(data.Validations.userGreetingComponentForHRManager)
+
+    // Create new talent
     Dashboard.createNewTalent()
     Onboarding.validateUserRedirectedToTheOnboardingPage(data.Validations.welcome_label, data.Validations.onboardingHeaderTitle_Label, 
       data.Validations.onboardingHeaderBody_Label)
@@ -46,5 +50,11 @@ describe('E2E Scenario', () =>
     OnboardingSuccessPage.validateUserRedirectedToTheOnboardingSuccessPage(data.Validations.successScrrenHeaderTitle_Label)
     OnboardingSuccessPage.goToDashboard()
     Dashboard.validateUserGreetingComponentForHRManager(data.Validations.userGreetingComponentForHRManager)
+
+    // Validate that created talent saved and will be displayed in the talent page with onboarding status
+    Dashboard.openTalentsTab()
+    Talents.validateUserRedirectedToTalentsPage(data.Validations.talentsHeaderTitle_Label)
+    Talents.searchForTalent(data.onboardingContractDetails.firstName + data.onboardingContractDetails.LastName)
+
   })
 })
