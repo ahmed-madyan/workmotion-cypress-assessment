@@ -14,9 +14,12 @@ class OnboardingInviteEmployee
         this.elements.inviteEmployeeHeaderTitle_Label().should('have.text', header_Text)
     }
 
-    typeEmail(email)
+    typeUniqueEmail()
     {
-        this.elements.email_Box().type(email)
+        const uuid = () => Cypress._.random(0, 1e6)
+        const id = uuid()
+        const testname = `testname${id}`
+        this.elements.email_Box().type(testname + '@test.com')
     }
 
     continue()
