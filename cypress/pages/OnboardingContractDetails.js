@@ -1,7 +1,5 @@
 /// <reference types="Cypress" />
 
-const { selectCountry } = require("./Onboarding")
-
 class OnboardingContractDetails
 {
     elements =
