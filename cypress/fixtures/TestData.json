@@ -1,8 +1,8 @@
 {
-  "env":{
+  "env":
+  {
     "WorkMotion_URL": "https://beta.workmotion.com/login"
-        },
-
+  },
   "loginData":
   {
     "email": "aliaa+qahrmanager@workmotion.com",
@@ -22,10 +22,6 @@
   "onboardingSalaryCalculator":
   {
     "baseSalaryPerMonth": "1000"
-  },
-  "onboardingInviteEmployee":
-  {
-    "email": "test1234558j825272@test.com"
   },
   "Validations": 
   {
