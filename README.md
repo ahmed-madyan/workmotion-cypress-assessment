@@ -70,8 +70,6 @@ Download the [Node.JS](https://nodejs.org/en/download/) source code or a pre-bui
    
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Navigate to the Repo URL at [GitHub](https://github.com/ahmed-madyan/workmotion-cypress-assessment)
 2. Clone the repo
    ```sh
